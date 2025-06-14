@@ -1,19 +1,7 @@
 # College-club-event-management-project
 
-In modern academic institutions, student clubs play an essential role in fostering holistic 
-development by promoting leadership, collaboration, and co-curricular engagement. 
-However, as clubs expand in both size and activity, managing their operations through 
-manual processes becomes increasingly difficult. Challenges such as disorganized event 
-planning, inefficient record-keeping, and lack of centralized communication often hinder 
-productivity and transparency. 
-To address these issues, we developed UniVent—a comprehensive Club Management 
-System designed specifically to cater to the needs of student clubs at the institutional level. 
-UniVent aims to streamline various aspects of club administration, including member 
-management, event scheduling, participation tracking, and approval workflows. By providing 
-a unified digital platform for students, club coordinators, and administrators, the system 
-enhances collaboration and accountability across all levels. 
-UniVent is built using web technologies such as HTML, CSS, and JavaScript for the 
-frontend, and integrates a MySQL database with Flask on the backend to ensure efficient data 
-handling and secure transactions. The project not only applies core database principles like 
-ER modeling, normalization, and relational schema design but also demonstrates how these 
-concepts can solve real-world challenges faced in everyday college life. 
+In modern academic institutions, managing student clubs and their events can become a complex and time-consuming task. Traditional methods involving paperwork, manual approvals, and scattered communication often lead to delays, confusion, and lack of transparency. As campuses grow and the number of clubs and events increases, there is a clear need for a centralized, efficient, and technology-driven solution that can simplify these processes and enhance coordination between students, club leaders, and administration.
+
+UniVent addresses this need by providing a comprehensive web-based system for managing college club activities and events. It offers a unified platform that automates key tasks such as event proposals, approvals, registrations, and reporting, ensuring smoother workflows and better visibility for all stakeholders. The system supports three primary user roles: students, who can explore clubs, view upcoming events, and register for activities; club presidents, who can propose and manage events, submit resource requests, view participant lists, and generate reports; and administrators, who oversee the approval of events and resources, manage venue and resource allocations, and monitor club operations through detailed dashboards and reports.
+
+UniVent is built using HTML, CSS, and JavaScript for the frontend, Flask (Python) for the backend, and MySQL for data storage and management. The system incorporates advanced database functionalities, including triggers to automate logging actions (such as event approvals) and stored procedures for generating real-time event and participation statistics. By leveraging these technologies, UniVent ensures that club management processes are organized, transparent, and scalable, making it an ideal solution for modern academic environments.
