@@ -1,7 +1,175 @@
-# College-club-event-management-project
+# 🎓 UniVent – University Event & Club Management System
 
-In modern academic institutions, managing student clubs and their events can become a complex and time-consuming task. Traditional methods involving paperwork, manual approvals, and scattered communication often lead to delays, confusion, and lack of transparency. As campuses grow and the number of clubs and events increases, there is a clear need for a centralized, efficient, and technology-driven solution that can simplify these processes and enhance coordination between students, club leaders, and administration.
+A web-based platform designed to streamline and digitize the management of student clubs and events within a university.
 
-UniVent addresses this need by providing a comprehensive web-based system for managing college club activities and events. It offers a unified platform that automates key tasks such as event proposals, approvals, registrations, and reporting, ensuring smoother workflows and better visibility for all stakeholders. The system supports three primary user roles: students, who can explore clubs, view upcoming events, and register for activities; club presidents, who can propose and manage events, submit resource requests, view participant lists, and generate reports; and administrators, who oversee the approval of events and resources, manage venue and resource allocations, and monitor club operations through detailed dashboards and reports.
+---
 
-UniVent is built using HTML, CSS, and JavaScript for the frontend, Flask (Python) for the backend, and MySQL for data storage and management. The system incorporates advanced database functionalities, including triggers to automate logging actions (such as event approvals) and stored procedures for generating real-time event and participation statistics. By leveraging these technologies, UniVent ensures that club management processes are organized, transparent, and scalable, making it an ideal solution for modern academic environments.
+## 📌 Overview
+
+UniVent is a centralized **Club Management System** that helps students, club heads, and administrators efficiently manage:
+
+- Event creation & approvals  
+- Student registrations  
+- Club memberships  
+- Resource allocation  
+- Participation tracking  
+
+The system replaces manual processes with an automated, scalable solution.
+
+> Based on DBMS mini project developed at MIT-WPU.
+
+---
+
+## 🚨 Problem Statement
+
+Managing college clubs manually leads to:
+
+- Disorganized event planning  
+- Delayed approvals  
+- Poor communication  
+- Lack of centralized records  
+
+UniVent solves these problems by providing a **single digital platform** for all club activities. :contentReference[oaicite:0]{index=0}
+
+---
+
+## 💡 Key Features
+
+### 👨‍🎓 Student Module
+- View upcoming events  
+- Register for events  
+- Track registered events  
+- Explore clubs  
+
+### 👑 Club President Module
+- Create & manage events  
+- View participants  
+- Manage members  
+- Generate reports  
+
+### 🛠️ Admin Module
+- Approve/reject events  
+- Manage hall bookings  
+- Allocate resources  
+- Monitor system activity  
+
+---
+
+## 🗄️ Database Design
+
+The system uses a structured relational database with key tables:
+
+- Users  
+- Clubs  
+- Events  
+- Memberships  
+- Event Registrations  
+- Resource Requests  
+- Approvals  
+
+> The ER Diagram (see report page 7) defines relationships between users, events, and resources.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- HTML  
+- CSS  
+- JavaScript  
+
+### Backend
+- Flask / PHP (based on implementation version)  
+- MySQL  
+
+---
+
+## 📊 System Modules
+
+### 🔐 Login System
+- Secure authentication  
+- Role-based access control  
+
+### 📊 Dashboard System
+- Student dashboard  
+- Club dashboard  
+- Admin dashboard  
+
+### 📅 Event Management
+- Create events  
+- Approval workflow  
+- Event tracking  
+
+### 📦 Resource Management
+- Request resources  
+- Allocation system  
+- Availability tracking  
+
+---
+
+## 📈 Results
+
+The system successfully demonstrates:
+
+- Event approval workflow  
+- Student event registration  
+- Email notifications  
+- Real-time dashboards  
+
+(Refer to report pages 16–17 for screenshots)
+
+---
+
+## 🚀 Future Enhancements
+
+- 📱 Mobile app integration  
+- 📊 Analytics dashboard  
+- 🤖 AI-based event reports  
+- 🔔 Smart notifications  
+- 📅 Calendar sync  
+
+---
+
+## 🎯 Conclusion
+
+UniVent provides a scalable and efficient solution for managing university clubs.  
+It demonstrates practical implementation of:
+
+- ER Modeling  
+- Database normalization  
+- SQL-based systems  
+
+The system improves **transparency, efficiency, and student engagement**. :contentReference[oaicite:1]{index=1}
+
+---
+
+## 👥 Team Members
+
+- Arnav Nikumbh  
+- Divya Yokar  
+- Rishi Raj Thakur  
+- Naitri Panchal  
+
+---
+
+## 🎓 Institution
+
+MIT World Peace University, Pune  
+Department of Computer Engineering & Technology  
+
+---
+
+## ⭐ How to Run the Project
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/CareerLens.git
+
+# Go to project folder
+cd CareerLens-main
+
+# Install dependencies (if Flask)
+pip install -r requirements.txt
+
+# Run server
+python app.py
