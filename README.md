@@ -173,3 +173,40 @@ pip install -r requirements.txt
 
 # Run server
 python app.py
+# 1. Clone the repository
+git clone https://github.com/your-username/UniVent.git
+
+# 2. Navigate to the project directory
+cd UniVent
+
+# 3. Create a virtual environment (recommended)
+python -m venv venv
+
+# Activate environment
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+# 4. Install dependencies
+pip install -r requirements.txt
+
+# 5. Setup MySQL Database
+# - Create a database (e.g., univent_db)
+# - Import the SQL file provided in the project
+
+# Example:
+mysql -u root -p
+CREATE DATABASE univent_db;
+USE univent_db;
+SOURCE database.sql;
+
+# 6. Configure environment variables / DB credentials
+# Update in config file (app.py or config.py):
+# DB_HOST=localhost
+# DB_USER=root
+# DB_PASSWORD=your_password
+# DB_NAME=univent_db
+
+# 7. Run the Flask application
+python app.py
